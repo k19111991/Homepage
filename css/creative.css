@@ -19,6 +19,9 @@ hr {
 hr.light {
   border-color: white;
 }
+br{
+  border-width:1px;
+}
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -38,9 +41,12 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 36px;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+p.line{
+  font-size:10px;
 }
 .bg-primary {
   background-color: #F05F40;
